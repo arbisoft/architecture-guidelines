@@ -1,6 +1,7 @@
 # Project Architecture Guidelines Index
 
-- [Documentation](documentation.md)
-- [Backend Development](backend_development.md)
-- [Code Quality](code_quality.md)
-- [Github Flow](github_flow.md)
+- [How to properly document the project](documentation.md)
+- [What git flow should be used](github_flow.md)
+- [What best practices should be followed while developing the backend](backend_development.md)
+- [How to improve the overall quality of the code base](code_quality.md)
+
