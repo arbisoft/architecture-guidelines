@@ -12,8 +12,18 @@ Just learn once and code once, and then React Native apps are available for both
 - When your App needs a native look and feels depending on the specific platforms.
 - More scalable and complex app.
 - Large number of community support packages available for faster development.
+## When not to choose React Native
+- Large scale project having heavy calculations and animations involved.
+- Apps with complex user interfaces
+- Apps that are designed for a single OS
+- Games and apps that require Native APIs
 
 ## Project Setup Architecture
+
+For large scale projects we should create 2 different repositories , 
+- Components library containing Reuseable components (UI library for all the common resusable components that can be used across the app) 
+- Main App Repo that will be consuming the above UI library to build scalabele and consistent screens.
+- Ideally we should ensure encapsulation of screens and components.
 
 Each root level folder exposes respective index.js file that helps us shorten the imports.
 Everything inside a folder is exported from the index file of that respective directory
@@ -34,9 +44,9 @@ If a file / concern spans on multiple files, create a separate directory for it
 
 ## Setup a Theming Guidelines:
 Without consistent styling, it's hard to get the best possible results. A Design System is a set of rules and principles that set the foundation for how the application should look and feel. You need 3 things to keep in mind while working with your design system.
-- **Spacing**: While working with a cross-platform application, the screen sizes might vary between different components present on a screen, but make sure to provide consistent spacing between them for a coherent look.
-- **Color**: Choosing the right colors is not only the most important thing but also how you use them. A great solution is to use Color Palettes, where you can name your colors according to the preferred naming conventions, which increases your overall workflow.
-- **Typography**: We often forget about how the fonts change the way our application look in the results. It’s best to stick to a limited set of font families, weights, and sizes to achieve a pleasant coherent look.
+- `Spacing`: While working with a cross-platform application, the screen sizes might vary between different components present on a screen, but make sure to provide consistent spacing between them for a coherent look.
+- `Color`: Choosing the right colors is not only the most important thing but also how you use them. A great solution is to use Color Palettes, where you can name your colors according to the preferred naming conventions, which increases your overall workflow.
+- `Typography`: We often forget about how the fonts change the way our application look in the results. It’s best to stick to a limited set of font families, weights, and sizes to achieve a pleasant coherent look.
 
 
 ## Dynamic Styling with JS
@@ -78,7 +88,7 @@ Define some scalable functions that can help to handle UI on different device di
 ## Code Quality
 
 
-###  Configure Absolute Paths in Codebase
+###  Configure Absolute Relative Paths in Codebase
 
 Using absolute imports to better organize your React project is a great way. Relative imports are hard to follow and break during refactoring. Absolute imports manage your project easier as it grows.
 
@@ -92,7 +102,7 @@ Absolute imports have some advantages.
 ### Linting:
 Use a linter to make your code easier to review.
 Follow strict linting rules. This in turn helps you write clean, consistent code.
-Use this package: https://www.npmjs.com/package/@react-native-community/eslint-config
+Rules recommendation: [ESlint Community Rules](https://www.npmjs.com/package/@react-native-community/eslint-config)
 
 
 ## Some Recommended Libraries to use: 
