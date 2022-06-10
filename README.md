@@ -5,4 +5,4 @@
 - [What best practices should be followed while developing the backend](backend_development.md)
 - [How to improve the overall quality of the code base](code_quality.md)
 - [Frontend development guidelines](frontend_development.md)
-
+- [React Native development guidelines](react_native_development.md)
