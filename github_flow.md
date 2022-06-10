@@ -38,7 +38,7 @@ There can be three types of workflows, depending upon the situation:
 
 **Feature/Bug Fix**
 
-- Create a new branch from master./develop
+- Create a new branch from develop
 - Once the development is complete, create a PR against the develop branch.
 - PR must be reviewed by developers and should have at least two thumbs up for it to be able to be merged
 - Squash and Merge the branch into develop
