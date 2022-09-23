@@ -11,7 +11,7 @@ Just learn once and code once, and then React Native apps are available for both
 ## When to choose React Native
 - When your App needs a native look and feels depending on the specific platforms.
 - More scalable and complex app.
-- Large number of community support packages available for faster development.
+- Large number of community support packages are available for faster development.
 ## When not to choose React Native
 - Large scale project having heavy calculations and animations involved.
 - Apps with complex user interfaces
@@ -20,7 +20,7 @@ Just learn once and code once, and then React Native apps are available for both
 
 ## Project Setup Architecture
 
-For large scale projects we should create 2 different repositories , 
+For large scale projects we should create 2 different repositories, 
 - Components library containing Reuseable components (UI library for all the common resusable components that can be used across the app) 
 - Main App Repo that will be consuming the above UI library to build scalabele and consistent screens.
 - Ideally we should ensure encapsulation of screens and components.
@@ -58,30 +58,30 @@ Define some scalable functions that can help to handle UI on different device di
 
 ## React Native Best Coding Practices
 
-- Organize imports such that all library imports are grouped together on top of the file, and rest imports will follow later
-- Exception Handling in React Native Apps
+- Organize imports such that all library imports are grouped together on top of the file, and rest imports will follow later.
+- Exception Handling in React Native Apps.
 - Sort all object properties.
 - Always terminate properties with semicolons.
 - Use stateless components as much as you can.
 - Avoid default exports and use named exports for better IDE support.
-- No Implicit returns
+- No Implicit returns.
 - Empty states should be implemented implicitly.
 - To use any package, the priority should be given to the react-native community.
-- Add comments in the code to clear ambiguity
+- Add comments in the code to clear ambiguity.
 - Stories to be placed under the storybook/stories folder.
-- Use Platform Specific Styles
-- Always Assign Unique Key to Each Element
+- Use Platform Specific Styles.
+- Always Assign Unique Key to Each Element.
 - Remove deprecated & unnecessary commented code.
 - Remove consoles.
 - Shouldn’t pass inline functions in JSX.
-- Props and Styles should be in a separate file
-- Avoid Inline Styling
+- Props and Styles should be in a separate file.
+- Avoid Inline Styling.
 - Should remove repeated code and follow the DRY principle.
 -If the file/component is too large, then it should be separated into multiple files/components.
-- Should follow the style guides for styled files..
+- Should follow the style guides for styled files.
 - Code has appropriate unit tests and should achieve coverage more than 80%.
--Tests are well-designed
-- Lock Dependencies
+-Tests are well-designed.
+- Lock Dependencies.
 
 <br>
 
