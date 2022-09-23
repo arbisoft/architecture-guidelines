@@ -12,9 +12,9 @@ While in general different frameworks have different pros and cons ( this [link]
 
 #### Why DRF ?
 
-- implicity, flexibility, quality, and test coverage of source code.
+- Simplicity, flexibility, quality, and test coverage of source code.
 - Powerful serialization engine compatible with both ORM and non-ORM data sources.
-- Pluggable and easy to customise emitters, parsers, validators and authenticators.
+- Pluggable and easy to customize emitters, parsers, validators and authenticators.
 - Generic classes for CRUD operations.
 - Clean, simple, views for Resources, using Django&#39;s class based views.
 - Support for ModelResources with out-of-the-box default implementations and input validation (optional support for forms as input validation).
