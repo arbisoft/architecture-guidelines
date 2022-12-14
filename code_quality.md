@@ -24,7 +24,7 @@ Checkout this documentation to integrate Flake8 with git hooks [https://flake8.p
 
 ##### [Pylint](https://pypi.org/project/pylint/)
 
-Pylint is another good choice. It takes a little more effort to set up than Flake8 and also triggers more false positives. On the other hand it provides a more comprehensive analysis.
+Pylint is another good choice. It takes a little more effort to set up than Flake8 and also triggers more false positives. On the other hand, it provides a more comprehensive analysis.
 
 To integrate pylint with github flow, please refer to this link
 
@@ -36,7 +36,7 @@ To integrate pylint with github flow, please refer to this link
 
 ESlint helps a team to follow unified rules increasing readability and purity of code. ESlint is highly flexible and allows customizing rules for errors, best practices, variable declarations, ES6 etc.
 
-ESlint works with a set of rules that you define. Most commonly used linting rules are [Airbnb](https://github.com/airbnb/javascript), which bills itself as &quot;a mostly reasonable approach to JavaScript.&quot; And their linting rules are popular because they are simple, sensible, and beautifully consistent.
+ESlint works with a set of rules that you define. The most commonly used linting rules are [Airbnb](https://github.com/airbnb/javascript), which bills itself as &quot;a mostly reasonable approach to JavaScript.&quot; And their linting rules are popular because they are simple, sensible, and beautifully consistent.
 
 A good guide to integrate ESlint as part of your workflow is:
 
