@@ -144,6 +144,21 @@ Use Encrypted Storage just to make sure our app is secure. Async Storage is grea
 encrypted format so that it won't be readable by an attacker.
 - [Security Aspects to consider](https://medium.com/simform-engineering/security-aspects-to-consider-for-a-react-native-application-95556f0e4244)  
 
+## Over the air Updates (OTA)
+
+Over-the-air (OTA) updates are crucial as they enable developers to rapidly deploy changes to their applications without requiring users to download new versions from app stores. This capability significantly accelerates the bug-fixing process, allows for swift implementation of minor feature updates, and enhances the overall user experience by ensuring that users always have access to the latest improvements.
+
+### For Expo Apps
+Expo's eas provides [eas-updates](https://docs.expo.dev/eas-update/introduction/) with `expo-updates` library to update non-native code e.g. JS, styling and images.
+
+### For Bare react-native apps.
+- [react-native-code-push](https://github.com/microsoft/react-native-code-push) for react-native version 0.76 and below with the new architecture disabled.
+- [@code-push-next/react-native-code-push](https://github.com/CodePushNext/react-native-code-push) for react-native 0.77 and above.
+
+As the appcenter (Microsoft's service hosting code push) is retiring on March 31, 2025 a self hosted code push server or a hosted code push service like [deploypulse](deploypulse.io) can be used for continued support.
+
+> Starting from react native 0.76, expo is the recommended framework to start a new react-native app and expo-updates is the recommended way for OTAs.
+
 ## Testing
 
 ### Unit & Snapshot Testing (Jest)
